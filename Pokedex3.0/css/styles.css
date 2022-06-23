@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background: linear-gradient(0deg, rgba(124,100,181,1) 23%, rgba(153,67,188,1) 26%, rgba(48,192,159,1) 40%, rgba(153,67,188,1) 62%, rgba(153,67,188,1) 78%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.search{
+    text-align: center;
+}
+
+.pokemon-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.pokemon-block{
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+}
+
+.img-container {
+    background-image: url("/Pokedex3.0/blob.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pokemon-block p {
+    margin: 5px;
+}
+
+.name {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#spinner {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.pagination {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.filtro{
+    display: none;
+}
+
